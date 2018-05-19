@@ -5,10 +5,10 @@ import { Directive, TemplateRef } from '@angular/core';
 })
 export class ListItemDirective {
 
-  public listTemplate: TemplateRef<any>;
+  public itemTemplate: TemplateRef<any>;
 
   constructor(private templateRef: TemplateRef<any>) {
-    this.listTemplate = this.templateRef;
+    this.itemTemplate = this.templateRef;
   }
 
 }

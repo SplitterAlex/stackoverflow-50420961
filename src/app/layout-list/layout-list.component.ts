@@ -1,5 +1,5 @@
 import { ListItemDirective } from './list-item.directive';
-import { Component, OnInit, ContentChildren, AfterContentInit, QueryList } from '@angular/core';
+import { Component, ContentChildren, QueryList } from '@angular/core';
 
 @Component({
   selector: 'app-layout-list',
@@ -7,10 +7,5 @@ import { Component, OnInit, ContentChildren, AfterContentInit, QueryList } from 
   styleUrls: ['./layout-list.component.css']
 })
 export class LayoutListComponent {
-
   @ContentChildren(ListItemDirective) listItems: QueryList<ListItemDirective>;
-
-  constructor() { }
-
-
 }
