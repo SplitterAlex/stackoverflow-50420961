@@ -1,5 +1,7 @@
 # Stackoverflow
 
+Answer for Stackoverflow Question: https://stackoverflow.com/questions/50420961/angular-2-multiple-projection-on-unknown-amount-of-contents
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
 ## Development server
